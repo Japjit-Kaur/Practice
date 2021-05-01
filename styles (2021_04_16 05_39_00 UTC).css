@@ -1,0 +1,47 @@
+div {
+  background-color: #b0c4b1;
+  height: 260px;
+  width: 360px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -180px;
+  margin-top: -130px;
+  border-radius: 10%;
+  box-shadow: 10px 8px 5px #3d3d3d;
+}
+
+form {
+  color: rgb(41, 43, 43);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h1 {
+  color: #3d405b;
+  border-radius: 3%;
+  height: 45px;
+  text-align: center;
+  font-size: 30px;
+}
+.button {
+  background-color: #f1dca7;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 30px;
+  width: 100px;
+  border-width: 1px;
+}
+.button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+  100% {
+    background-color: #ffe8d6;
+  }
+}
